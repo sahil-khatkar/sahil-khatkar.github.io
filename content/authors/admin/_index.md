@@ -68,7 +68,7 @@ education:
     summary: |
       GPA: 3.97/4.0
 
-      # Specialized in machine learning and robotics.
+    # Specialized in machine learning and robotics.
   - area: BE (Hons.) Electrical Electronics Engineering & MSc (Hons.) Economics
     institution: BITS, Pilani
     date_start: 2011-09-01
