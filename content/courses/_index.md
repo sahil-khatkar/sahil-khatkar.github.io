@@ -1,11 +1,11 @@
 ---
-title: Courses
+title: Teaching
 summary: My courses
 type: landing
 
 cascade:
   - target:
-      path: '{/courses/*/**}'
+      path: '{/teaching/*/**}'
     type: docs
     params:
       show_breadcrumb: true
