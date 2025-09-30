@@ -155,6 +155,4 @@ work:
 #    summary: |
 #      Recognized for contributions to scaling laws in deep learning.
 ---
-summary_title: ""
-
 I am a 6th year Economics PhD student at the University of Texas at Austin. 
