@@ -1,0 +1,32 @@
+{{/* layouts/partials/widgets/about.html */}}
+{{/* Copied and modified from Hugo Blox source, with "Professional Summary" heading removed */}}
+
+{{- $page := .page -}}
+{{- $widget := .widget -}}
+
+{{/* Avatar and name section unchanged */}}
+<section id="{{ $widget.section_id | default (anchorize $widget.title) }}" class="home-section">
+  <div class="container">
+    <div class="row">
+      {{ with site.Data.authors.admin }}
+        <div class="col-12 col-lg-4 text-center text-lg-left">
+          {{/* Avatar */}}
+          {{ if .avatar }}
+            <img class="avatar" src="{{ .avatar | relURL }}" alt="{{ .name }}">
+          {{ end }}
+        </div>
+        <div class="col-12 col-lg-8">
+          <h1>{{ .name }}</h1>
+          <p>{{ .bio }}</p>
+        </div>
+      {{ end }}
+    </div>
+
+    {{/* Resume Button */}}
+    {{ if $widget.params.resume }}
+      <div class="mt-4">
+        <a class="btn btn-primary" href="{{ $widget.params.resume | relURL }}">Download CV</a>
+      </div>
+    {{ end }}
+  </div>
+</section>
