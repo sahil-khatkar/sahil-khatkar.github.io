@@ -11,5 +11,5 @@ section.blox-resume-biography-3 .flex.items-center.gap-4.mb-8 > div.flex-shrink-
 /* Reduce the top margin/padding of the biography block on homepage */
 section.blox-resume-biography-3 {
   margin-top: 0 !important;
-  padding-top: 1rem !important; /* or whatever small padding looks good */
+  padding-top: 0 !important; /* or whatever small padding looks good */
 }
