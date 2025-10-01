@@ -1,8 +1,5 @@
 ---
-title: "Research"
-hide_title: true
-show_title: false
-showSectionTitle: false
+title: ''
 type: page
 layout: page
 
