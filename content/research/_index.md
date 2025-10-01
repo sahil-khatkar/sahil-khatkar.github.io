@@ -16,7 +16,7 @@ menu:
 
 ### Multi-homing on Heterogeneous Taxi Hail Modes: Optimal Driver Choice in NYC  
 *Abstract:* I study the partership of Yellow Taxi with Uber from the perspective of drivers who can multi-home and its welfare implications.
-[Download PDF](/static/files/multihoming.pdf)
+[Download PDF](/files/multihoming.pdf)
 
 
 
