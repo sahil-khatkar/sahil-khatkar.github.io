@@ -1,5 +1,6 @@
 ---
 title: "Research"
+hide_title: true
 type: page
 layout: page
 
@@ -8,6 +9,8 @@ menu:
     name: "Research"
     weight: 11
 ---
+
+## Research
 
 ### Investment, Emissions, and Reliability in Electricity Markets  
 *Abstract:* We analyze capacity markets in NYISO and their effect on investment incentives, emissions outcomes, and reliability under various regulatory regimes.  
