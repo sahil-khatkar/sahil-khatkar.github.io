@@ -93,34 +93,34 @@ work:
 skills:
   - name: Technical Skills
     items:
-      - name: Python & PyTorch
+      - name: R
         description: ''
         percent: 95
-        icon: code-bracket
-      - name: Machine Learning
+        # icon: code-bracket
+      - name: MATLAB
         description: ''
         percent: 100
-        icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
+        # icon: chart-bar
+      - name: Python
         description: ''
         percent: 85
-        icon: cloud
+        # icon: cloud
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking in the Rockies
+      - name: Writing fiction
         description: ''
         percent: 80
-        icon: person-simple-walk
-      - name: Building Custom PCs
+        # icon: person-simple-walk
+      - name: Playing guitar
         description: ''
         percent: 90
-        icon: cpu-chip
-      - name: Sci-Fi Reading
+        # icon: cpu-chip
+      - name: Hiking
         description: ''
         percent: 70
-        icon: book-open
+        # icon: book-open
 
 # languages:
 # - name: English
