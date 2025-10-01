@@ -13,3 +13,15 @@ section.blox-resume-biography-3 {
   margin-top: 0 !important;
   padding-top: 0 !important; /* or whatever small padding looks good */
 }
+
+/* Make the Research page title smaller */
+body.page-research .page-title,
+body.page-research h1 {
+  font-size: 2rem !important;
+}
+
+/* Make the Research page title smaller */
+body.page-teaching .page-title,
+body.page-teaching h1 {
+  font-size: 2rem !important;
+}
