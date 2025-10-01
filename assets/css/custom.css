@@ -2,3 +2,8 @@
 section.blox-resume-biography-3 h2.text-xl.sm\:text-2xl.lg\:text-3xl.font-bold.tracking-tight {
   display: none !important;
 }
+
+/* Hide the icon next to the "Professional Summary" heading */
+section.blox-resume-biography-3 .flex.items-center.gap-4.mb-8 > div.flex-shrink-0 {
+  display: none !important;
+}
