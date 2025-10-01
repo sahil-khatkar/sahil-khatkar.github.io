@@ -1,7 +1,6 @@
 ---
-title: ""
+title: "Research"
 type: page
-# type: landing
 layout: page
 
 menu:
