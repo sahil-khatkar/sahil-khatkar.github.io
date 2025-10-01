@@ -1,10 +1,7 @@
 ---
-title: ""
+title: "Research"
 type: page
----
-
-<span style="font-size:1.5rem; font-weight:600;">Research</span>
-
+layout: page
 
 menu:
   main:
