@@ -14,14 +14,7 @@ section.blox-resume-biography-3 {
   padding-top: 0 !important; /* or whatever small padding looks good */
 }
 
-/* Make the Research page title smaller */
-body.page-research .page-title,
-body.page-research h1 {
-  font-size: 2rem !important;
-}
-
-/* Make the Research page title smaller */
-body.page-teaching .page-title,
-body.page-teaching h1 {
-  font-size: 2rem !important;
+.page-title {
+  font-size: 2rem;   /* Similar to the Experience page */
+  font-weight: 600;  /* Optional: to keep consistent with headings */
 }
