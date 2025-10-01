@@ -154,5 +154,5 @@ work:
 #    icon: hero/academic-cap
 #    summary: |
 #      Recognized for contributions to scaling laws in deep learning.
-# ---
-# I am a 6th year Economics PhD student at the University of Texas at Austin. 
+---
+I am a 6th year Economics PhD student at the University of Texas at Austin. 
