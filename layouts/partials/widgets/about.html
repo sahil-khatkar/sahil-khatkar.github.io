@@ -1,32 +1,37 @@
-{{/* layouts/partials/widgets/about.html */}}
-{{/* Copied and modified from Hugo Blox source, with "Professional Summary" heading removed */}}
+{{/* Overridden widget to hide "Professional Summary" title */}}
 
-{{- $page := .page -}}
-{{- $widget := .widget -}}
-
-{{/* Avatar and name section unchanged */}}
-<section id="{{ $widget.section_id | default (anchorize $widget.title) }}" class="home-section">
-  <div class="container">
-    <div class="row">
-      {{ with site.Data.authors.admin }}
-        <div class="col-12 col-lg-4 text-center text-lg-left">
-          {{/* Avatar */}}
-          {{ if .avatar }}
-            <img class="avatar" src="{{ .avatar | relURL }}" alt="{{ .name }}">
+{{ $bio := site.Data.homepage.bio }}
+{{ if $bio.enable }}
+<section id="section-resume-biography-3" class="relative hbb-section blox-resume-biography-3 hbx-bg-gradient">
+  <div class="home-section-bg"></div>
+  <div class="resume-biography py-8 px-4 sm:py-12 md:py-16 lg:py-24 xl:py-32 relative overflow-hidden">
+    <div class="max-w-7xl mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-8 items-start">
+        {{ partial "widgets/about/avatar.html" . }}
+        <div class="md:col-span-8">
+          <div class="mb-12">
+            <div class="flex items-center gap-4 mb-8">
+              {{/* REMOVED the <h2> heading here */}}
+            </div>
+            <div class="prose prose-lg dark:prose-invert text-gray-800 dark:text-gray-200 text-base sm:text-lg leading-relaxed">
+              <div class="bio-text">
+                {{ with $bio.content }}
+                  {{ . | markdownify }}
+                {{ end }}
+              </div>
+            </div>
+          </div>
+          {{ if $bio.resume_url }}
+            <div class="mb-16">
+              <a href="{{ $bio.resume_url | relURL }}" target="_blank" class="inline-flex items-center px-8 py-4 bg-gradient-to-r from-primary-600 to-secondary-600 hover:from-primary-700 hover:to-secondary-700 text-white font-bold text-lg rounded-xl shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
+                {{ partial "icons/icon.html" (dict "name" "download" "class" "w-5 h-5 mr-3") }}
+                {{ i18n "btn_download_cv" }}
+              </a>
+            </div>
           {{ end }}
         </div>
-        <div class="col-12 col-lg-8">
-          <h1>{{ .name }}</h1>
-          <p>{{ .bio }}</p>
-        </div>
-      {{ end }}
-    </div>
-
-    {{/* Resume Button */}}
-    {{ if $widget.params.resume }}
-      <div class="mt-4">
-        <a class="btn btn-primary" href="{{ $widget.params.resume | relURL }}">Download CV</a>
       </div>
-    {{ end }}
+    </div>
   </div>
 </section>
+{{ end }}
