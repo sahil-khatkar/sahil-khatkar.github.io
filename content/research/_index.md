@@ -10,8 +10,6 @@ menu:
     weight: 11
 ---
 
-# ## Selected Papers
-
 ### Investment, Emissions, and Reliability in Electricity Markets  
 *Abstract:* We analyze capacity markets in NYISO and their effect on investment incentives, emissions outcomes, and reliability under various regulatory regimes.  
 [Download PDF](/files/investment_emissions_reliability.pdf)
