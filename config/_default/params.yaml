@@ -60,7 +60,7 @@ features:
     enable: false
 
 # Remove "Professional Summary"
-design:
-  custom_css:
-    - css/custom.css
+# design:
+#  custom_css:
+#    - css/custom.css
 
