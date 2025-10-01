@@ -1,6 +1,8 @@
 ---
 title: "Research"
 hide_title: true
+show_title: false
+showSectionTitle: false
 type: page
 layout: page
 
